@@ -4,6 +4,7 @@
 
 *.csv
 *.txt
+!requirements.txt
 *.json
 *.geojson
 *.parquet
