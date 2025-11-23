@@ -1,0 +1,21 @@
+# Ignorer toutes les données lourdes
+*.csv
+*.txt
+*.json
+*.geojson
+*.parquet
+*.gz
+*.zip
+
+# Ignorer tous les checkpoints Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Ignorer tous les dossiers contenant les données
+data/
+
+# Ignorer fichiers temporaires et caches
+.DS_Store
+*.pyc
+__pycache__/
+
