@@ -1,4 +1,7 @@
-# Ignorer toutes les données lourdes
+# =====================
+# Ignorer fichiers lourds
+# =====================
+
 *.csv
 *.txt
 *.json
@@ -7,20 +10,37 @@
 *.gz
 *.zip
 
-# Ignorer tous les checkpoints Jupyter
+# =====================
+# Ignorer Jupyter
+# =====================
+
 .ipynb_checkpoints/
+**/.ipynb_checkpoints/
 *.ipynb_checkpoints
 
-# Ignorer tous les dossiers contenant les données
-data/
-
-# Ignorer fichiers temporaires et caches
-.DS_Store
-*.pyc
-__pycache__/
+# =====================
+# Ignorer environnements Python
+# =====================
 
 .venv/
+venv/
+env/
+ENV/
+*.env
+
+# =====================
+# Fichiers caches & temporaires
+# =====================
+
 __pycache__/
 *.pyc
-.ipynb_checkpoints/
+*.pyo
+*.pyd
+.DS_Store
+Thumbs.db
 
+# =====================
+# Ignorer dossiers data
+# =====================
+
+data/
